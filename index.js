@@ -1,3 +1,5 @@
+require("datejs");
+
 function combineUsers(...args){
 const combinedObject = {
 users: []
@@ -8,6 +10,7 @@ combinedObject.users = [...combinedObject.users, ...arr];
 }
 
 combinedObject.merge_date = new Date().toString("M/d/yyyy");
+
 return combinedObject;
 
 

@@ -1,4 +1,6 @@
-
+function combineUsers(...args){
+  
+}
 
 
 module.exports = {
